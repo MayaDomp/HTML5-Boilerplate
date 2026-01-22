@@ -11,10 +11,8 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
-  color: #222;
-  font-size: 1em;
-  line-height: 1.4;
+body {
+  color:#000;
 }
 
 /*
@@ -195,9 +193,13 @@ textarea {
     text-shadow: none !important;
   }
 
-  a,
-  a:visited {
-    text-decoration: underline;
+  a a:visited {
+    text-decoration:none;
+    color:blueviolet;
+  }
+  a:hover {
+    text-decoration: solid;
+    color:aqua;
   }
 
   a[href]::after {
